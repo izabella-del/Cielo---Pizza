@@ -34,7 +34,35 @@
     <input type="email" name="email" id="email" required>
     <br>
     <br>
+    <label for="telefone">Telefone:</label>
+<input type="tel" name="telefone" id="telefone" required 
+       inputmode="numeric" maxlength="15" 
+       pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
+       title="Digite com o DDD. Ex: (17) 98782-2663 ou 17987822663">
+<br>
+<br>
+<label for="data">Data da Reserva:</label>
+<input type="date" name="data" id="data" required>
+<br>
+<br>
+<label for="hora">Horário:</label>
+<input type="time" name="hora" id="hora" required>
+<br>
+<br>
+<button type="submit">Enviar Agendamento</button>
+</form>
     </main>
-    
+    <footer>
+        <p>
+            <ul>Pizzaria Cielo & Pizza, a pizzaria que da honra a pizza italiana! </ul>
+        </p>
+        <h2>Contato</h2>
+        <p>Fale conosco
+            <br>
+            Telefone: 17 99356-2066
+            <br>
+            Email: atendimento@cieloepizza.com.br
+        </p> 
+    </footer>
 </body>
 </html>
