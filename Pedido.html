@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Cielo & Pizza - Pedidos</title>
+    <title>Pizzaria Cielo &amp; Pizza - Pedidos</title>
 </head>
 <body>
-     <header>
-        <h1>Pizzaria Cielo & Pizza 🍕</h1>
+    <header>
+        <h1>Pizzaria Cielo &amp; Pizza 🍕</h1>
         <nav>
             <a href="index.html">Início</a>
             <a href="Menu.html">•Menu•</a>
@@ -15,41 +15,46 @@
             <a href="Agendamento.html">Agende sua mesa!</a>
         </nav>
     </header>
+
     <main>
-        <p>Do Nosso Forno para a Sua Mesa
-        Peça o autêntico sabor da Itália sem sair de casa! Preencha o formulário com seus dados, escolha se prefere entrega ou retirada no balcão, e prepare-se para saborear a melhor pizza da cidade.
-        </p>
-        <h2> 
-            Preencha o formulário de pedido ➔
-        </h2>
+        <p>Do Nosso Forno para a Sua Mesa. 
+        Peça o autêntico sabor da Itália sem sair de casa! Preencha o formulário com seus dados, escolha se prefere entrega ou retirada no balcão, e prepare-se para saborear a melhor pizza da cidade.</p>
+
+        <h2>Preencha o formulário de pedido ➔</h2>
+
         <form action="#" method="post">
-    <label for="nome">Nome Completo</label>
-    <input type="text" name="nome" id="nome">
-    <br>
-    <br>
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-    <br>
-    <br>
-    <label for="telefone">Telefone</label>
-    <input type="tel" name="telefone" id="telefone">
-    <br>
-    <br>
-    <label for="retirada">Vai retirar no local?</label>
-    <select name="retirada" id="retirada" required>
-        <option value="">Selecione uma opção</option>
-        <option value="sim">Sim</option>
-        <option value="nao">Não</option>
-    </select>
-</form>
-       </form>
-         <p>peça por nosso menu online ➔</p>
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" required
+                   inputmode="numeric" maxlength="15" 
+                   pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
+                   title="Digite com o DDD. Ex: (17) 98782-2663 ou 17987822663">
+            <br><br>
+
+            <label for="retirada">Vai retirar no local?</label>
+            <select name="retirada" id="retirada" required>
+                <option value="">Selecione uma opção</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+
+        <p>Peça por nosso menu online ➔</p>
         <a href="https://www.pizzerialeggera.com.br/">•Menu online•</a>
     </main>
+
     <footer>
-        <p>
-            <ul>Pizzaria Cielo & Pizza, a pizzaria que da honra a pizza italiana! </ul>
-        </p>
+        <p>Pizzaria Cielo &amp; Pizza, a pizzaria que dá honra à pizza italiana!</p>
         <h2>Contato</h2>
         <p>Fale conosco
             <br>

@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Cielo & Pizza - Agendamento</title>
+    <title>Pizzaria Cielo &amp; Pizza - Agendamento</title>
 </head>
 <body>
-     <header>
-        <h1>Pizzaria Cielo & Pizza 🍕</h1>
+    <header>
+        <h1>Pizzaria Cielo &amp; Pizza 🍕</h1>
         <nav>
             <a href="index.html">Início</a>
             <a href="Menu.html">•Menu•</a>
@@ -15,52 +15,48 @@
             <a href="Agendamento.html">Agende sua mesa!</a>
         </nav>
     </header>
+
     <main>
         <h2>Reserva</h2>
-        <p><strong> Reserve sua Mesa!</strong> Garanta um momento especial na Cielo & Pizza! Escolha a data, o horário e a quantidade de pessoas para desfrutar das nossas pizzas artesanais no nosso ambiente aconchegante</p>
-<br>
-        <h2>
-            Preencha o formulário de agendamento  ➔
-        </h2>
-        Aqui está o formulário sem o campo de retirada, mantendo apenas os dados pessoais, data, horário e as validações do professor:
+        <p><strong>Reserve sua Mesa!</strong> Garanta um momento especial na Cielo &amp; Pizza! Escolha a data, o horário e a quantidade de pessoas para desfrutar das nossas pizzas artesanais no nosso ambiente aconchegante.</p>
 
-```html
-<form action="#" method="post">
-    <label for="nome">Nome Completo:</label>
-    <input type="text" name="nome" id="nome" required>
-    <br>
-    <br>
-    <label for="email">Email:</label>
-    <input type="email" name="email" id="email" required>
-    <br>
-    <br>
-    <label for="telefone">Telefone:</label>
-<input type="tel" name="telefone" id="telefone" required 
-       inputmode="numeric" maxlength="15" 
-       pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
-       title="Digite com o DDD. Ex: (17) 98782-2663 ou 17987822663">
-<br>
-<br>
-<label for="data">Data da Reserva:</label>
-<input type="date" name="data" id="data" required>
-<br>
-<br>
-<label for="hora">Horário:</label>
-<input type="time" name="hora" id="hora" required>
-<br>
-<br>
-<button type="submit">Enviar Agendamento</button>
-</form>
+        <h2>Preencha o formulário de agendamento ➔</h2>
+
+        <form action="#" method="post">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" required 
+                   inputmode="numeric" maxlength="15" 
+                   pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
+                   title="Digite com o DDD. Ex: (17) 98782-2663 ou 17987822663">
+            <br><br>
+
+            <label for="data">Data da Reserva:</label>
+            <input type="date" name="data" id="data" required>
+            <br><br>
+
+            <label for="hora">Horário:</label>
+            <input type="time" name="hora" id="hora" required>
+            <br><br>
+
+            <button type="submit">Enviar Agendamento</button>
+        </form>
     </main>
+
     <footer>
-        <p>
-            <ul>Pizzaria Cielo & Pizza, a pizzaria que da honra a pizza italiana! </ul>
-        </p>
+        <p>Pizzaria Cielo &amp; Pizza, a pizzaria que dá honra à pizza italiana!</p>
+        
         <h2>Contato</h2>
-        <p>Fale conosco
-            <br>
-            Telefone: 17 99356-2066
-            <br>
+        <p>
+            Fale conosco<br>
+            Telefone: 17 99356-2066<br>
             Email: atendimento@cieloepizza.com.br
         </p> 
     </footer>
